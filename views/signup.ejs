@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/signup.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Login And SignUp</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="form signup">
+            <header>SignUp</header>
+            <form action="/signup" method="post">
+                <input type="text" name="fname" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <input type="password" placeholder="Password" name="password" required>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="signupcheck">
+                    <label for="signupcheck">I accept terms & conditions</label>
+                </div>
+
+                
+                <input type="submit" value="Sign Up">
+                <a href="/login" class="Loginn">Login</a>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
